@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  siliconvalve.vsts.dockerdemo:
+    image: siliconvalve.vsts.dockerdemo
+    build:
+      context: ./SiliconValve.Vsts.DockerDemo
+      dockerfile: Dockerfile
